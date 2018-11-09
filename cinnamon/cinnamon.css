@@ -1,9 +1,9 @@
 /* This file is part of adapta-gtk-theme Copyright (C) 2016-2018 Tista <tista.gma500@gmail.com> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. */
 
-* {
+/* * {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.2s;
-}
+} */
 
 stage {
     font-size: 10pt;
@@ -415,6 +415,7 @@ StScrollBar StButton#hhandle:active {
     padding: 0;
     background-color: #28343a;
     color: rgba(207, 216, 220, 0.87);
+    font-size: 11pt;
 }
 
 .popup-menu,
@@ -552,7 +553,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #panel {
-    font-size: 10pt;
+    font-size: 11pt;
     height: 28px;
     width: 32px;
     color: #CFD8DC;
@@ -665,7 +666,7 @@ StScrollBar StButton#hhandle:active {
     -minimum-hpadding: 3px;
     color: #CFD8DC;
     font-weight: 700;
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
 }
 
 .panel-button:hover,
@@ -805,17 +806,17 @@ StScrollBar StButton#hhandle:active {
     height: 200px;
     width: 35px;
     background-image: url("assets/misc/add-workspace.svg");
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
 }
 
 .workspace-add-button:hover {
     background-image: url("assets/misc/add-workspace-hover.svg");
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
 }
 
 .workspace-add-button:active {
     background-image: url("assets/misc/add-workspace-active.svg");
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
 }
 
 .workspace-overview-background-shade {
@@ -858,7 +859,7 @@ StScrollBar StButton#hhandle:active {
     border: none;
     border-radius: 2px;
     color: #CFD8DC;
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
     text-align: center;
 }
 
@@ -1389,7 +1390,7 @@ StScrollBar StButton#hhandle:active {
     text-shadow: none;
     icon-shadow: none;
     font-weight: 700;
-    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    /*transition-timing-function: cubic-bezier(0, 0, 0.2, 1);*/
 }
 
 .keyboard-key:focus,
@@ -1397,19 +1398,19 @@ StScrollBar StButton#hhandle:active {
 .keyboard-key:checked {
     color: #CFD8DC;
     background-color: #374246;
-    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
 }
 
 .keyboard-key:active {
     color: #CFD8DC;
     background-color: #4d585d;
-    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
 }
 
 .keyboard-key:grayed {
     color: rgba(207, 216, 220, 0.54);
     background-color: #13191c;
-    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
 }
 
 .keyboard-subkeys {
@@ -1920,7 +1921,7 @@ StScrollBar StButton#hhandle:active {
     height: 10px;
     color: #CFD8DC;
     background-color: rgba(0, 0, 0, 0.01);
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
 }
 
 .workspace-button:hover {
@@ -2049,7 +2050,7 @@ StScrollBar StButton#hhandle:active {
 .launcher {
     padding: 2px;
     spacing: 2px;
-    transition-duration: 0.2s;
+    /*transition-duration: 0.2s;*/
 }
 
 .launcher:hover {
