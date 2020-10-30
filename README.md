@@ -1,4 +1,14 @@
-## Adapta-Nokto
+## perlun-cinnamon-theme
+
+Based on Adapta-Nokto (original `README` below), with some personal adjustments for my own needs.
+
+### Quick installation guide
+
+```
+$ mkdir -p ~/.themes && cd ~/.themes && git clone https://github.com/perlun/perlun-cinnamon-theme.git
+```
+
+## Adapta-Nokto (original README follows)
 
 A dark theme based on Material Design Guidelines. Cinnamon, Metacity, GTK2, GTK3.18 and GTK3.20+ themes are included.
 
