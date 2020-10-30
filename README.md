@@ -1,6 +1,6 @@
 ## perlun-cinnamon-theme
 
-Based on Adapta-Nokto (original `README` below), with some personal adjustments for my own needs.
+Based on [Adapta-Nokto](https://github.com/linuxmint/cinnamon-spices-themes/tree/40529bc0/Adapta-Nokto) (original `README` below), with some personal adjustments for my own needs.
 
 ### Quick installation guide
 
